@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
-import { NotfoundComponent } from './notfound/notfound.component';
+
 
 
 
@@ -11,7 +11,6 @@ import { NotfoundComponent } from './notfound/notfound.component';
   declarations: [
     HomeComponent,
     ProfileComponent,
-    NotfoundComponent
   ],
   exports: [
     HomeComponent,
@@ -19,9 +18,6 @@ import { NotfoundComponent } from './notfound/notfound.component';
   ],
   imports: [
     CommonModule,
-    HomeComponent,
-    ProfileComponent
-
   ]
 })
 export class PagesModule { }

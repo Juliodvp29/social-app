@@ -19,9 +19,6 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    PostComponent,
-    HeaderComponent,
-    PanelBottomComponent,
     FormsModule
   ]
 })
