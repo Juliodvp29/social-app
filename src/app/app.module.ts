@@ -10,19 +10,17 @@ import { AuthModule } from './auth/auth.module';
 import { PagesModule } from './pages/pages.module';
 
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
-    NotfoundComponent
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AuthModule,
     PagesModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

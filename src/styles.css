@@ -10,6 +10,7 @@
 body{
     font-family: 'Inter', sans-serif;
     background-color: #FAFAFA;
+    scroll-behavior: smooth;
 }
 
 input:focus, select:focus, select, input.form-control:focus {
